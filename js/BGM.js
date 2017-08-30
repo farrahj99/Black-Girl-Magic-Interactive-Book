@@ -14,6 +14,9 @@ function nextPage() {
 }
 
 
+
+
+
 // add variables of players to help move Jubilee without
 // bouncing too much
   var playerLeft = 0;
