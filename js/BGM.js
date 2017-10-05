@@ -59,7 +59,7 @@ function nextPage() {
  }
 
 
- // 359
+ // 359px - innerWidth(); method in pixels - add to perfect the maze
 
   if (e.which == 39) {
     playerLeft += 25;
