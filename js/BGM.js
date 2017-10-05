@@ -1,4 +1,9 @@
+//declared a variable named currentPage and assigned it to 0
+
 var currentPage = 0;
+
+// used an on click function to pick both the active and flipped classes from my HTML page to 
+// activate the flipping of the pages
 
 $('.book').on('click', '.active', nextPage).on('click', '.flipped', prevPage);
 
@@ -24,6 +29,7 @@ function nextPage() {
 
 
 
+// utilized a keydown function and conditionals to move my player in the maze 
 
   $(document).keydown(function(e){
     if(e.which == 37) {
@@ -66,7 +72,8 @@ function nextPage() {
 });
 
 
-// play music
+// play music from Billie Holiday
+
 $(".life").on("click", function(){
   $("#audioOne")[0].play();
 });
